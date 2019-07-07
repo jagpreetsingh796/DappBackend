@@ -46,11 +46,11 @@ console.log(tx1)
  async function checkbalanceofUSER(name)
 {
     let bal = await contractWithSigner.callBalance(name)
-    console.log("Mehrad checkbalance function is",bal.toString())
+    // console.log("Mehrad checkbalance function is",bal.toString())
     return(bal.toString())
 
 }
-checkbalanceofUSER("Mehrad")
+// checkbalanceofUSER("Mehrad")
 
 async function withdrawfrom(amount,name)
 {
